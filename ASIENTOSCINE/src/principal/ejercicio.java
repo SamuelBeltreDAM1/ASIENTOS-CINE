@@ -36,6 +36,15 @@ for (int i = 0; i<1; i++) {
 		System.out.println();
 	  }
 	}
+while (fila%2==0 && columna%2==0) {
+	System.out.println();
+	System.out.println("Vuelve a introducir la fila y la columna del asiento, esta ocupado");
+	System.out.print("NUMERO DE FILA: ");
+	fila= sc.nextInt();
+	System.out.print("NUMERO DE COLUMNA: ");
+	columna= sc.nextInt();
+}
+System.out.println("el asiento que has seleccionado ahora si que esta libre");
 
 	}
 }
